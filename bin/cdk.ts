@@ -15,15 +15,6 @@ export const props: EnvironmentProps = {
   // Set plugin-daemon version to stable release
   difyPluginDaemonImageTag: '0.3.1-local',
   
-
-  // 指定 ECR 仓库名称前缀
- // customEcrRepositoryName: '720586300424.dkr.ecr.cn-north-1.amazonaws.com.cn',
-  // uncomment the below options for less expensive configuration:
-  // isRedisMultiAz: false,
-  // useNatInstance: true,
-  // enableAuroraScalesToZero: true,
-  // useFargateSpot: true,
-
   // Please see EnvironmentProps in lib/environment-props.ts for all the available properties
 };
 
