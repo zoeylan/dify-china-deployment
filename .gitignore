@@ -1,0 +1,42 @@
+# CDK 输出和缓存
+cdk.out/
+cdk.context.json
+template.yaml
+*.js
+*.d.ts
+*.js.map
+
+# 依赖
+node_modules/
+
+# 环境变量
+.env
+.env.local
+
+# AWS 凭证
+.aws/
+*.pem
+*.key
+
+# 日志
+*.log
+npm-debug.log*
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# CloudFormation 模板
+template.yaml
+
+# CDK 上下文
+cdk.context.json
+
+.cdk/
+.cdk/
