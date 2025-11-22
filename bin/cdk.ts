@@ -17,7 +17,7 @@ export const props: EnvironmentProps = {
   
 
   // 指定 ECR 仓库名称前缀
- // customEcrRepositoryName: '123456789000.dkr.ecr.cn-north-1.amazonaws.com.cn',
+ // customEcrRepositoryName: '720586300424.dkr.ecr.cn-north-1.amazonaws.com.cn',
   // uncomment the below options for less expensive configuration:
   // isRedisMultiAz: false,
   // useNatInstance: true,
@@ -41,7 +41,7 @@ if ((props.useCloudFront ?? true) && (props.domainName || props.allowedIPv4Cidrs
   });
 }
 
-new DifyOnAwsStack(app, 'DifyOnAwsStack', {
+new DifyOnAwsStack(app, 'DifyOnAwsChinaStack', {
   env: { region: props.awsRegion, account: props.awsAccount },
   crossRegionReferences: true,
   ...props,
